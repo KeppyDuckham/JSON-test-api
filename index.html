@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light" style=" background-color: #012762;">
+        <nav class="navbar navbar-expand-lg navbar-light" style=" background-color: #9e03ff;">
             <div class="container">
                 <a class="navbar-brand mb-2" href="#"><img src="img/logo-white.png" alt=""></a>
                 <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
@@ -59,9 +58,42 @@
         </nav>
     </header>
     <main>
-        <div class="form-section mt-5">
-            <div class="container">
-                <h1 style="color: #F4F6F8;">Share Your Story</h1>
+     <div class="container">
+            <div class="card my-5">
+                <div class="card-body">
+                        <div class="p-5 text-center">
+                            <h1>Trusted by thousands of enterpreneurs, artists and event planners all across the globe.</h1>
+                            <p class="py-3">We are happy to see more than a ten thousand happy customers that have use our service. Are you one
+                                of them?
+                                Share your story with us below.
+                            </p>
+                            <a href="#post-here"><button class="btn btn-lg col-lg-6 col-md-6 col-12 rounded-pill" type="submit" style="color:#ffffff; background: #ffe603; 
+                            background-image: linear-gradient(120deg, #ff03f7, #c500f6);">Share</button></a>
+                        </div>
+                        <div class="row">
+                            <img src="img/wedding.png" alt="" class="my-2 rounded col-lg-4 col-md-4 col">
+                            <img src="img/seat.png" alt="" class="my-2 rounded col-lg-4 col-md-4 col">
+                            <img src="img/birthday.png" alt="" class="my-2 rounded col-lg-4 col-md-4 col">
+                        </div>
+                        <div class="row pt-3 text-center">
+                            <div class="col-4">
+                                <h2 style="color: #9e03ff;">10K</h2>
+                                <p>Happy Customers</p>
+                            </div>
+                            <div class="col-4">
+                                <h2 style="color: #9e03ff;">$20M</h2>
+                                <p>Total Profit</p>
+                            </div>
+                            <div class="col-4">
+                                <h2 style="color: #9e03ff;">6</h2>
+                                <p>Years of Business</p>
+                            </div>
+                           </div>
+                </div>
+            </div>
+            
+            <div id="post-here" class="card form-section mt-5 p-3">
+                <h2 style="color: #9e03ff;">Share Your Story</h2>
                 <div class="row">
                     <div class="col">
                         <form action="" id="post-form">
@@ -74,15 +106,14 @@
                                 <textarea class="form-control" id="body" rows="6" placeholder="Share your story"></textarea>
                             </div>
                             <div class="d-flex">
-                                <button class="btn btn-primary btn-lg" type="submit" style="width: 320px;">Post</button>
+                                <button class="btn btn-lg col-lg-6 col-md-6 col-12 mt-2" type="submit" style="color:#F4F6F8; background: #9e03ff ;">Share your story</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="card-section mt-5">
-            <div class="container">
+
+            <div class="card-section mt-5">
                 <div class="row" id="post-holder">
                     <div>
                         <div>
@@ -98,9 +129,17 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="card mb-3 p-5 bg-light">
+                <h5>subscription</h5>
+                <form class="d-flex mt-2" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Email Address" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Submit</button>
+                </form>
+            </div>
+     </div>
     </main>
-    <footer style="background-color: #012762;">
+    <footer style="background-color: #9e03ff;">
         <div class="container py-3 py-lg-5 py-md-5">
             <div class="row text-light">
                 <div class="col-lg-4 col-md-4 col-12 pt-lg-0 pt-3">
@@ -108,19 +147,19 @@
                     <div class="d-flex">
                         <a href="#" class="me-2 text-decoration-none link-light"><i
                                 class="bi bi-twitter d-flex justify-content-center align-items-center d-inline-block p-2 rounded-circle"
-                                style="background-color: #D8D8EA; color: #2750A8;"></i></a>
+                                ></i></a>
                         <a href="#" class="me-2 text-decoration-none link-light"><i
                                 class="bi bi-facebook d-flex justify-content-center align-items-center d-inline-block p-2 rounded-circle"
-                                style="background-color: #D8D8EA; color: #2750A8;"></i></a>
+                                ></i></a>
                         <a href="#" class="me-2 text-decoration-none link-light"><i
                                 class="bi bi-instagram d-flex justify-content-center align-items-center d-inline-block p-2 rounded-circle"
-                                style="background-color: #D8D8EA; color: #2750A8;"></i></a>
+                                ></i></a>
                         <a href="#" class="me-2 text-decoration-none link-light"><i
                                 class="bi bi-linkedin d-flex justify-content-center align-items-center d-inline-block p-2 rounded-circle"
-                                style="background-color: #D8D8EA; color: #2750A8;"></i></a>
+                                ></i></a>
                         <a href="#" class="me-2 text-decoration-none link-light"><i
                                 class="bi bi-pinterest d-flex justify-content-center align-items-center d-inline-block p-2 rounded-circle"
-                                style="background-color: #D8D8EA; color: #2750A8;"></i></a>
+                                ></i></a>
                     </div>
                     <p class="text-light pt-4"><span class="fs-5">&copy;</span> 2022 Event360</p>
                 </div>
@@ -166,5 +205,4 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
 </body>
-
 </html>

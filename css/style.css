@@ -19,7 +19,7 @@ body {
     background-size: cover;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover, .nav-link.active, footer a:hover{
   font-size: 16px !important;
   transform: scale(1.2);
 }
@@ -29,8 +29,4 @@ body {
   color: #2851a9 !important;
   font-size: 16px !important;
   font-weight: bold;
-}
-
-footer a:hover {
-  opacity: 0.8;
 }

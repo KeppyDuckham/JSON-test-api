@@ -27,7 +27,7 @@ postForm.addEventListener('submit', createPost)
 // Method: POST
 function createPost(e) {
     e.preventDefault();
-    fetch(url, {
+    fetch('https://jsonplaceholder.typicode.com/posts', {
         method: 'POST',
         body: JSON.stringify({
             title: title.value,
