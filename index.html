@@ -68,7 +68,7 @@
                                 Share your story with us below.
                             </p>
                             <a href="#post-here"><button class="btn btn-lg col-lg-6 col-md-6 col-12 rounded-pill" type="submit" style="color:#ffffff; background: #ffe603; 
-                            background-image: linear-gradient(120deg, #ff03f7, #c500f6);">Share</button></a>
+                            background-image: linear-gradient(120deg, #d200cb, #c500f6);">Share your story</button></a>
                         </div>
                         <div class="row">
                             <img src="img/wedding.png" alt="" class="my-2 rounded col-lg-4 col-md-4 col">
@@ -95,18 +95,20 @@
             <div id="post-here" class="card form-section mt-5 p-3">
                 <h2 style="color: #9e03ff;">Share Your Story</h2>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12">
                         <form action="" id="post-form">
                             <div>
                                 <label class="form-label"></label>
                                 <input type="text" class="form-control" id="title" placeholder="Post title">
+                                <div id="msg"></div>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label"></label>
                                 <textarea class="form-control" id="body" rows="6" placeholder="Share your story"></textarea>
+                                <div id="msg2"></div>
                             </div>
-                            <div class="d-flex">
-                                <button class="btn btn-lg col-lg-6 col-md-6 col-12 mt-2" type="submit" style="color:#F4F6F8; background: #9e03ff ;">Share your story</button>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-lg mt-2 col-lg-3 col-md-4 col-12" type="submit" style="color:#F4F6F8; background: #9e03ff ;">Post</button>
                             </div>
                         </form>
                     </div>
@@ -115,23 +117,22 @@
 
             <div class="card-section mt-5">
                 <div class="row" id="post-holder">
-                    <div>
-                        <div>
-                            <div>
-                                <p id="post-id"></p>
+                    <div class = "col-lg-6 col-md-12 col-12" >
+                        <div class="card h-100">
+                            <div class="bg-light card-body">
                                 <h6 id="post-title"></h6>
+                                <p id="post-id" class="text-secondary">By</p>
                                 <p id="post-body"></p>
                                 <a href="#" class="card-link"></a>
                                 <a href="#" class="card-link"></a>
-                                <a href="#" class="card-link"></a>
+                                <a href="#" class="card-link red-bin"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="card mb-3 p-5 bg-light">
-                <h5>subscription</h5>
+            <div class="card mb-3 mt-4 p-5 bg-light">
+                <h5>Subsrcibe to our newsletter</h5>
                 <form class="d-flex mt-2" role="search">
                     <input class="form-control me-2" type="search" placeholder="Email Address" aria-label="Search">
                     <button class="btn btn-outline-primary" type="submit">Submit</button>
